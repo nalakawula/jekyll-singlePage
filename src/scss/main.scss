@@ -1,0 +1,43 @@
+//contains overrides
+@import "utils/config";
+
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+@import "~magnific-popup/dist/magnific-popup.css";
+@import "~owlcarousel/owl-carousel/owl.carousel.css";
+
+// utils
+@import "utils/mixins";
+@import "utils/extends";
+
+// base
+@import "base/global";
+@import "base/typography";
+
+// layout
+@import "layout/layout";
+@import "layout/nav";
+@import "layout/footer";
+
+// components
+@import "components/hero";
+@import "components/form";
+@import "components/contact";
+@import "components/section-title";
+@import "components/offer";
+@import "components/about";
+@import "components/testimonials";
+@import "components/gallery";
+@import "components/svg-icons";
+@import "components/icons-style";
+@import "components/map";
+@import "components/prices";
+@import "components/expandable-box";
+@import "components/tooltip";
+@import "components/team";
+@import "components/social";
+@import "components/ie";
